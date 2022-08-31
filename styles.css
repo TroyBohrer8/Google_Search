@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@200;300;400&family=Lobster&family=Oswald:wght@600&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Familjen Grotesk', sans-serif;
+}
+
+body {
+  background-color: rgb(43, 43, 43);
+}
+
+h1 {
+  font-size: 100px;
+  color: #fff;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 75vh;
+  margin: 10px 20px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.btn {
+  height: 100%;
+}
+
+.submit {
+  background-color: dimgray;
+  color: #fff;
+  height: 25px;
+}
