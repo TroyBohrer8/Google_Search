@@ -6,25 +6,54 @@
 }
 
 body {
-  background-color: rgb(43, 43, 43);
+  background-color: rgb(26, 25, 25);
 }
 
 h1 {
   font-size: 100px;
   color: #fff;
+  font-weight: lighter;
 }
 
-.main {
+.main-container {
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.input {
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  width: 100%;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 20px 20px;
+  width: 15%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form .input {
   width: 75vh;
-  margin: 10px 20px;
+  margin: 20px 20px;
+  font-size: 1.5rem;
 }
 
 .buttons-container {
@@ -34,11 +63,14 @@ h1 {
 }
 
 .btn {
-  height: 100%;
+  padding: .5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #fff;
+  background-color: rgb(59, 58, 58);
+  border: 1px solid hsl(var(--primary-hsl));
+  border-radius: .25rem;
+  outline: none;
+  cursor: pointer;
 }
 
-.submit {
-  background-color: dimgray;
-  color: #fff;
-  height: 25px;
-}
